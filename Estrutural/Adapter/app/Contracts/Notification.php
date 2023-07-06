@@ -3,8 +3,7 @@
 namespace Contracts;
 
 /**
- * The Target interface represents the interface that your application's classes
- * already follow.
+ * A interface Target representa a interface que as classes do seu aplicativo já seguem.
  */
 interface Notification
 {

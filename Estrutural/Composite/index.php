@@ -46,9 +46,8 @@ function loadProductData(FormElement $form)
 }
 
 /**
- * The client code can work with form elements using the abstract interface.
- * This way, it doesn't matter whether the client works with a simple component
- * or a complex composite tree.
+ * O código do cliente pode trabalhar com elementos de formulário usando a interface abstrata.
+ * Dessa forma, não importa se o cliente trabalha com um componente simples ou uma árvore composta complexa.
  */
 function renderProduct(FormElement $form): string
 {
