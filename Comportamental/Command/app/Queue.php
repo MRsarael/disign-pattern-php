@@ -34,6 +34,7 @@ class Queue
 
     public function add(Command $command): void
     {
+        // Os comandos serão armazenados no banco de dados
         $query = 'INSERT INTO commands (command, status) VALUES (:command, :status)';
         $statement = $this->db->prepare($query);
         $statement->bindValue(':command', base64_encode(serialize($command)));
