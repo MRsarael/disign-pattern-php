@@ -8,9 +8,12 @@ use App\ConcreteCommand\SimpleCommand;
 use App\ConcreteCommand\ComplexCommand;
 
 $invoker = new Invoker();
-$invoker->setOnStart(new SimpleCommand("Olá mundo!"));
 $receiver = new Receiver();
+
+// O cliente deve conhecer a implementação dos comandos.
+$invoker->setOnStart(new SimpleCommand("Olá mundo!"));
 $invoker->setOnFinish(new ComplexCommand($receiver, "Enviando email", "Salvando relatório"));
 
 $invoker->doSomethingImportant();
+
 
