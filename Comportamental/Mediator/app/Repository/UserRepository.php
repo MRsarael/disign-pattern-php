@@ -9,8 +9,6 @@ use App\Model\User;
  * UserRepository lógica e negócio.
  * Atua como um componente regular que não possui nenhum evento especial relacionado.
  * Depende do EventDispatcher para transmitir seus eventos e ouvir os outros.
- * 
- * @see \RefactoringGuru\Observer\RealWorld\UserRepository
  */
 class UserRepository implements Observer
 {
