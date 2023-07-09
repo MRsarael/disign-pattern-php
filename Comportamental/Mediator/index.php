@@ -18,7 +18,7 @@ $repository = new UserRepository();
 $logger = new Logger(__DIR__ . "/log.txt");
 \App\Helper\Event::events()->attach($logger, "*");
 
-$onboarding = new OnboardingNotification("1@example.com");
+$onboarding = new OnboardingNotification("email_exemplo@teste.com");
 \App\Helper\Event::events()->attach($onboarding, "users:created");
 
 // Carregando usuários do arquvio csv users
