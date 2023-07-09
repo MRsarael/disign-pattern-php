@@ -1,3 +1,0 @@
-2023-07-09 02:29:01: 'users:init' com os dados '"C:\\Users\\rafaa\\Desktop\\Forma\u00e7\u00e3o\\Padr\u00f5es de projeto\\Pr\u00e1tica\\PHP\\Comportamental\\Mediatorusers.csv"'
-2023-07-09 02:29:07: 'users:created' com os dados '{"attributes":{"name":"Rafael Moreira Almeida","email":"rafa.almeid@hotmail.com","id":"2f3b5083be6062379de09010670f1184"}}'
-2023-07-09 02:29:15: 'users:deleted' com os dados '{"attributes":{"name":"Rafael Moreira Almeida","email":"rafa.almeid@hotmail.com","id":"2f3b5083be6062379de09010670f1184"}}'
