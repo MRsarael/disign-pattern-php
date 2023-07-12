@@ -73,7 +73,7 @@ class UserRepository implements Observer
 
         echo "UserRepository: Atualizando usuário.\n";
         sleep(2);
-
+        
         if (!isset($this->users[$id])) return null;
 
         $user = $this->users[$id];
