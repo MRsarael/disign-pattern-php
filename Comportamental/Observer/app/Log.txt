@@ -1,0 +1,6 @@
+
+2023-07-12 23:23:55: 'users:init' dados -> '"C:\\Users\\rafaa\\Desktop\\Forma\u00e7\u00e3o\\Padr\u00f5es de projeto\\Pr\u00e1tica\\PHP\\Comportamental\\Observer\/users.csv"'
+
+2023-07-12 23:24:03: 'users:created' dados -> '{"attributes":{"name":"Rafael Almeida","email":"rafael_email@bol.com","id":"f0ccfcd73ed51bfb694080779d6ea313"}}'
+
+2023-07-12 23:24:05: 'users:deleted' dados -> '{"attributes":{"name":"Rafael Almeida","email":"rafael_email@bol.com","id":"f0ccfcd73ed51bfb694080779d6ea313"}}'
