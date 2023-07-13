@@ -44,7 +44,6 @@ echo "\nClient: Exportando relatório dos empregados, departamentos e da compani
 $someEmployee = new Employee("Some employee", "operator", 35000);
 $differentEntities = [$someEmployee, $techSupport, $company];
 
-foreach ($differentEntities as $entity) {
-    echo $entity->accept($report) . "\r\n";
-}
+foreach ($differentEntities as $entity) echo $entity->accept($report) . "\r\n";
+
 

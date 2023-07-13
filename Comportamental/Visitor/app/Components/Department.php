@@ -36,10 +36,7 @@ class Department implements Entity
     public function getCost(): int
     {
         $cost = 0;
-        foreach ($this->employees as $employee) {
-            $cost += $employee->getSalary();
-        }
-
+        foreach ($this->employees as $employee) $cost += $employee->getSalary();
         return $cost;
     }
     
