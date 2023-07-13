@@ -46,4 +46,3 @@ $differentEntities = [$someEmployee, $techSupport, $company];
 
 foreach ($differentEntities as $entity) echo $entity->accept($report) . "\r\n";
 
-

@@ -30,7 +30,7 @@ class SalaryReport implements Visitor
     public function visitDepartment(Department $department): string
     {
         $output = "";
-
+        
         foreach ($department->getEmployees() as $employee) {
             $output .= " ".$this->visitEmployee($employee);
         }
