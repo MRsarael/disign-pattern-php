@@ -1,7 +1,6 @@
 <?php
 
 use Factories\PHPTemplateFactory;
-// use Page;
 
 require_once 'autoload.php';
 

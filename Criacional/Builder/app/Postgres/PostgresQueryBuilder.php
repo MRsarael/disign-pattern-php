@@ -5,8 +5,6 @@ namespace Postgres;
 use SQLQueryBuilderInterface;
 use Mysql\MysqlQueryBuilder;
 
-require_once __DIR__ . '/../../autoload.php';
-
 // Extendendo MysqlQueryBuilder todos os métodos serão herdados. Somente limit será refeito.
 class PostgresQueryBuilder extends MysqlQueryBuilder
 {

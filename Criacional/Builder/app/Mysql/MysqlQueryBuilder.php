@@ -4,8 +4,6 @@ namespace Mysql;
 
 use SQLQueryBuilderInterface;
 
-require_once __DIR__ . '/../../autoload.php';
-
 class MysqlQueryBuilder implements SQLQueryBuilderInterface
 {
     protected $query;
@@ -50,13 +48,11 @@ class MysqlQueryBuilder implements SQLQueryBuilderInterface
         $query = $this->query;
         $sql = $query->base;
 
-        if (!empty($query->where))
-        {
+        if (!empty($query->where)) {
             $sql .= " WHERE " . implode(' AND ', $query->where);
         }
 
-        if (isset($query->limit))
-        {
+        if (isset($query->limit)) {
             $sql .= $query->limit;
         }
         
