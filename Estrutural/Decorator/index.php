@@ -5,10 +5,9 @@ use Contracts\InputFormat;
 require_once 'autoload.php';
 
 /**
- * The client code might be a part of a real website, which renders user-
- * generated content. Since it works with formatters through the Component
- * interface, it doesn't care whether it gets a simple component object or a
- * decorated one.
+ * O código do cliente pode fazer parte de um site real, que renderiza conteúdo gerado pelo usuário.
+ * Como funciona com formatadores através do Componente interface,
+ * ele não se importa se obtém um objeto componente simples ou um um decorado.
  */
 function displayCommentAsAWebsite(InputFormat $format, string $text)
 {
